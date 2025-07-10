@@ -294,9 +294,11 @@ footer textarea {
   overflow: auto;
 }
 
-footer textarea::placeholder {
+footer textarea::placeholder,
+footer input[type="text"]::placeholder,
+footer input[type="email"]::placeholder {
   font-family: "Open Sans", sans-serif;
-  font-family: "Arial", sans-serif;
   font-size: 16px;
   color: #757575;
+  opacity: 1;
 }
