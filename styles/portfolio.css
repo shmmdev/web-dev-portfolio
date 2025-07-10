@@ -64,6 +64,17 @@
   border: none;
 }
 
+.btn-secondary {
+  background-color: #fff8f3;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fd6e0a;
+  padding: 17px 34px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
+}
+
 .section-title {
   font-size: 35px;
   font-weight: bold;
@@ -89,7 +100,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 51px 226px;
+  margin: 0px 226px 51px;
 }
 
 nav ul {
