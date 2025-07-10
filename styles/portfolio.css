@@ -279,6 +279,7 @@ footer input[type="email"] {
 }
 
 footer textarea {
+  font-family: "Open Sans", sans-serif;
   height: 128px;
   width: 100%;
   border-radius: 5px;
@@ -291,4 +292,11 @@ footer textarea {
   border: none;
   resize: none;
   overflow: auto;
+}
+
+footer textarea::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #757575;
 }
