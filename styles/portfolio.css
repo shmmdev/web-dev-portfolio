@@ -155,7 +155,7 @@ main section {
   text-align: center;
 }
 
-.about-me-div {
+.about-me-container {
   border: 1px solid black;
 }
 
@@ -188,4 +188,46 @@ main section {
   padding: 33px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  color: #181818;
+}
+
+.skill-description {
+  color: #757575;
+}
+
+/* Resume section styles */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.experience-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.experience-subtitle {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.experience-description {
+  color: #757575;
+  font-size: 16px;
+}
+
+.resume hr {
+  margin: 30px 0px;
 }
