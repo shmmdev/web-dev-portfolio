@@ -14,9 +14,11 @@
 .white-bg {
   background-color: #ffffff;
 }
+
 .text-primary {
   color: #fd6e0a;
 }
+
 .dark-1 {
   color: #181818;
 }
@@ -46,6 +48,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.btn-container {
+  margin-top: 50px;
 }
 
 .btn-primary {
@@ -230,4 +236,34 @@ main section {
 
 .resume hr {
   margin: 30px 0px;
+}
+
+/* footer styles */
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+}
+
+.footer-column {
+  width: 50%;
+}
+.footer-link {
+  text-decoration: none;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 24px;
+  padding: 10px 20px;
+  border: none;
 }
