@@ -168,18 +168,20 @@ main section {
 /* About styles */
 
 .about {
-  border-radius: 10px;
-  padding: 131px 156px;
+  border-radius: 20px;
+  padding: 11% 9%;
   text-align: center;
 }
 
 .about-me-container {
   border: 1px solid black;
+  /* min-width: 800px; */
 }
 
 .about-items {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
 
 /* Item style */
@@ -224,26 +226,26 @@ main section {
 
 .resume-column-title {
   color: #474747;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .experience-title {
   color: #474747;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .experience-subtitle {
   color: #757575;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
 .experience-description {
   color: #757575;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .resume hr {
@@ -342,8 +344,17 @@ footer input[type="email"]::placeholder {
   .btn-primary {
     margin-bottom: 10px;
   }
+
   .header {
     background-image: none;
+  }
+
+  .about {
+    padding: 40px 15px;
+  }
+
+  .about-items {
+    flex-direction: column;
   }
 }
 
@@ -383,9 +394,18 @@ footer input[type="email"]::placeholder {
   .header {
     background-image: none;
   }
+
+  .about {
+    padding: 60px 30px;
+  }
+
+  .about-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media screen and (768px <= width < 992px) {
+@media screen and (768px <= width < 1000px) {
   .skills-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -413,5 +433,14 @@ footer input[type="email"]::placeholder {
     background-image: url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: top left;
+  }
+
+  .about {
+    padding: 80px 40px;
+  }
+
+  .about-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
