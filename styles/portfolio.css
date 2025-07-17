@@ -302,3 +302,65 @@ footer input[type="email"]::placeholder {
   color: #757575;
   opacity: 1;
 }
+
+/* Responsive Styles */
+.hide {
+  display: none;
+}
+
+/* Media Queries */
+
+@media screen and (width < 576px) {
+  .skills-container,
+  .resume-container {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (576px <= width < 768px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .resume-container {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (768px <= width < 992px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .resume-container {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .footer-column {
+    width: calc(100% - 40px);
+  }
+}
