@@ -82,7 +82,7 @@
   font-size: 35px;
   font-weight: bold;
   color: #181818;
-  margin-top: 0;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 
@@ -256,10 +256,16 @@ main section {
 
 /* footer styles */
 
-footer {
+/* footer {
   padding: 130px 230px;
   display: flex;
   gap: 117px;
+} */
+
+footer {
+  padding: 10% 15%;
+  display: flex;
+  gap: 11%;
 }
 
 .footer-column {
@@ -480,7 +486,7 @@ footer input[type="email"]::placeholder {
   }
 }
 
-@media screen and (768px <= width < 1000px) {
+@media screen and (768px <= width < 992px) {
   .skills-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
